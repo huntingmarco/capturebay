@@ -11,7 +11,7 @@ import photo6 from './images/photo6.jpg';
 function Portfolio() {
     return (
         <div className='cards'>
-            <h1>Check out our services!</h1>
+            <h1>Photo Services</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>

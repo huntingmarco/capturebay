@@ -7,6 +7,7 @@ import {
   SidebarMenu,
   SidebarLink,
   SidebarRoute,
+  SidebarLinkV,
   SideBtnWrap
 } from './SidebarElements';
 
@@ -36,12 +37,12 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Services
           </SidebarLink>
-          <SidebarLink
+          <SidebarLinkV
             to='/portfolio'
             onClick={toggle}
           >
             Portfolio
-          </SidebarLink>
+          </SidebarLinkV>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to='/contactus'>Contact Us</SidebarRoute>
