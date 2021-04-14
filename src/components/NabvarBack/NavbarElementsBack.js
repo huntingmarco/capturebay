@@ -29,11 +29,6 @@ export const NavbarContainer = styled.div`
     max-width: 1100px;
 `;
 
-export const Img = styled.image`
-     margin-left: 0.5rem;
-    font-size: 1.8rem;
-`;
-
 export const NavLogo = styled(LinkR)`
     color: #fff;
     justify-self: flex-start;
@@ -77,7 +72,7 @@ export const NavItem = styled.li`
     height: 80px;
 `;
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkR)`
     color: #fff;
     display: flex;
     align-items: center;
@@ -109,9 +104,7 @@ export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
 
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
+    
 `;
 
 export const NavBtnLink = styled(LinkR)`

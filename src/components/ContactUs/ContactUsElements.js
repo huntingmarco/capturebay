@@ -2,14 +2,15 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
+  padding-top: 40px;=
   min-height: 692px;
-  position: fixed;
+  position: auto;
   bottom: 0;
   left: 0;
   right: 0;
   top: 0;
   z-index: 0;
-  overflow: hidden;
+  overflow: scroll;
   background: linear-gradient(
     108deg,
     rgba(38, 38, 38, 1) 0%,

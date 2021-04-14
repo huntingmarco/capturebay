@@ -11,7 +11,7 @@ function CarItem(props) {
                             <ReactPlayer
                                 url="https://youtu.be/3eLrINg3O2Q"
                                 className="react-player"
-                                playing
+                                // playing
                                 width="100%"
                                 height="100%"
                                 controls={false}

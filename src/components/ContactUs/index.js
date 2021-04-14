@@ -47,7 +47,7 @@ const ContactUs = () => {
     <div>
       <Container>
         <FormWrap>
-          <Icon to='/'>capturebay</Icon>
+          <Icon to='/'></Icon>
           <FormContent>
             <Form onSubmit={sendEmail} action='#'>
               <FormH1>Contact Us</FormH1>

@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import {FaBars} from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import { IconContext } from 'react-icons/lib';
-import {Nav, NavbarContainer, NavLogo, MobileIcon,NavMenu,NavItem,NavLinks,NavLinksPage, NavBtn,NavBtnLink} from './NavbarElements';
-
+import {Nav, NavbarContainer, NavLogo, MobileIcon,NavMenu,NavItem,NavLinks,NavLinksPage, NavBtn,NavBtnLink,Img} from './NavbarElements';
+import logo from '../../images/logo.png';
 
 const Navbar = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false);
@@ -29,7 +29,8 @@ const Navbar = ({toggle}) => {
         <IconContext.Provider value={{ color: '#fff' }}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo onClick={toggleHome} to="/">capturebay</NavLogo>
+                    <NavLogo  onClick={toggleHome} to="/">  <img src={logo} width="60" height="50" /> capturebay
+                    </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

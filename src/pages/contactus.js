@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ContactUs from '../components/ContactUs';
-import ScrollToTop from '../components/ScrollToTop';
+import Navbar from '../components/NabvarBack';
+import Footer from '../components/Footer';
 
 function ContactUsPage() {
+ 
+
   return (
     <>
-      <ScrollToTop />
+      <Navbar />
       <ContactUs />
+      <Footer/>
     </>
   );
 }
