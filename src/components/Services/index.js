@@ -23,17 +23,17 @@ const Services = () => {
       <Link to="/contactus">
         <ServicesCard >
           <ServicesIcon src={Icon1} to='/contactus' />
-          <ServicesH2>Photography</ServicesH2>
+          <ServicesH2>PHOTO PRODUCTION</ServicesH2>
           <ServicesP>
-            We help reduce your fees and increase your overall revenue.
+          We capture images to seize moments and make a powerful impact.
           </ServicesP>
         </ServicesCard>
         </Link>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Videography</ServicesH2>
+          <ServicesH2>VIDEO PRODUCTION</ServicesH2>
           <ServicesP>
-            You can access our platform online anywhere in the world.
+          Our team of creators are especially trained to bring out strong and compelling content.
           </ServicesP>
         </ServicesCard>
 
@@ -41,7 +41,15 @@ const Services = () => {
           <ServicesIcon src={Icon3} />
           <ServicesH2>Special Event Livestream</ServicesH2>
           <ServicesP>
-            Unlock our special membership card that returns 5% cash back.
+          Our production team is ready to livestream your event to reach your target audience.
+          </ServicesP>
+        </ServicesCard>
+
+        <ServicesCard>
+          <ServicesIcon src={Icon3} />
+          <ServicesH2>Graphics Creation</ServicesH2>
+          <ServicesP>
+          Our talented graphics design team is ready to make still and motion graphics that suit your needs.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

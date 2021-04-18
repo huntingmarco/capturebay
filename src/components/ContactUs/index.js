@@ -55,6 +55,8 @@ const ContactUs = () => {
               <FormInput type='text' name="name" required />
               <FormLabel htmlFor='email'>Email</FormLabel>
               <FormInput type='email' name="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required />
+              <FormLabel htmlFor='contactnum'>Contact Number</FormLabel>
+              <FormInput type='text' name="contactnum" required />
               <FormLabel htmlFor='subject'>Subject</FormLabel>
               <FormInput type='text' name="subject" required />
               <FormLabel htmlFor='message'>Message</FormLabel>

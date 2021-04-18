@@ -30,12 +30,12 @@ const HeroElements = () => {
             <HeroContent>
                 <HeroH1>Photography & Video Production </HeroH1>
                 <HeroP>
-                Sign up for a new account today and receive $250 in credit towards
+                Book an appointment today and receive $200 in credit towards
                 your next payment.
                 </HeroP>
                 <HeroBtnWrapper>
                 <Button
-                    to='signup'
+                    to='/contactus'
                     smooth={true}
                     duration={500}
                     spy={true}

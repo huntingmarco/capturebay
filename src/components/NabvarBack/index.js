@@ -31,7 +31,7 @@ const Navbar = ({toggle}) => {
                 <NavbarContainer>
                     <NavLogo onClick={toggleHome} to="/"><img src={logo} width="60" height="50" />capturebay</NavLogo>
                     
-                    <NavBtn>
+                    {/* <NavBtn>
                         <NavBtnLink to="/contactus" 
                         smooth={true}
                         duration={500}
@@ -39,7 +39,7 @@ const Navbar = ({toggle}) => {
                         exact='true'
                         offset={-80}
                         >Contact Us</NavBtnLink>
-                    </NavBtn>
+                    </NavBtn> */}
                 </NavbarContainer>
             </Nav>
             </IconContext.Provider>

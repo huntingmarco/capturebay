@@ -10,6 +10,7 @@ import photo6 from './images/photo6.jpg';
 
 function Portfolio() {
     return (
+        
         <div className='cards'>
             <h1>Photo Services</h1>
             <div className='cards__container'>
